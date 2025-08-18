@@ -1,12 +1,18 @@
-# React + Vite
+## Expanding Card with Framer Motion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates an animated expanding card component built using React and Framer Motion. The card starts in a compact state and expands smoothly on click, revealing additional details with subtle text and image animations. It makes use of the layout prop from Framer Motion for elegant resizing transitions and AnimatePresence for mounting/unmounting animated elements.
 
-Currently, two official plugins are available:
+### The design features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Smooth layout animations for resizing and reflow
+- Animated image scaling based on card state
+- Text reveal with staggered fade & slide animations
+- Clean Tailwind CSS styling for responsiveness
 
-## Expanding the ESLint configuration
+This example can be used as a base for profile cards, product showcases, or interactive UI elements where content expands dynamically.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🚀 Tech Stack
+
+- React
+- Framer Motion (motion.dev)
+- Tailwind CSS
